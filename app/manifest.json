@@ -1,0 +1,28 @@
+{
+  "name": "LEGO Parts Buying Helper",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "homepage_url": "http://jpsirois.com",
+  "background": {
+    "scripts": ["background.bundle.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "cookies",
+    "management",
+    "https://*.lego.com/*",
+    "http://*.bricklink.com/*"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://*.lego.com/*",
+        "http://*.bricklink.com/*"
+      ],
+      "js": [
+        "content.bundle.js"
+      ]
+    }
+  ]
+}

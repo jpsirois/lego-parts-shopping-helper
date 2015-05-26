@@ -1,0 +1,17 @@
+{
+  "name": "lego-parts-shopping-helper",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Jean-Philippe Sirois",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack --progress --watch"
+  },
+  "dependencies": { },
+  "devDependencies": {
+    "webpack": "^1.9.9",
+    "file-loader": "^0.8.4",
+    "jshint-loader": "^0.8.3",
+    "jquery": "^2.1.4"
+  }
+}
