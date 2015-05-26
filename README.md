@@ -1,4 +1,4 @@
-# LEGO Parts Shopping Helper
+# LEGO® Parts Shopping Helper
 
 A Chrome extension that improve [Bricklink](http://www.bricklink.com/) & [LEGO Bricks & Pieces](https://service.lego.com/replacementparts) to help you be more efficient when shopping for LEGO® parts.
 
@@ -29,7 +29,7 @@ A Chrome extension that improve [Bricklink](http://www.bricklink.com/) & [LEGO B
 - ???
 
 ## Credits
-- Got some inspirations of Webpack usage inside a Chrome Extension from: 
+- Got some inspirations of Webpack usage inside a Chrome Extension from:
 -- https://github.com/djsmith42/ksl-cars-plus
 -- https://github.com/nelix/fluxxor-react-chrome-boilerplate
 
